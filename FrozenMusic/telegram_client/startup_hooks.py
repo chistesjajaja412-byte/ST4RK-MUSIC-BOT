@@ -13,4 +13,3 @@ async def precheck_channels(client):
             logger.info(f"↻ Already in {chan}")
         except Exception as e:
             logger.warning(f"✗ Failed to join {chan}: {e}")
-            
